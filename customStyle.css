@@ -1,0 +1,158 @@
+
+body{
+    width: 100%;
+}
+.font-light{
+    font-weight: 100;
+    letter-spacing: .80px;
+}
+
+.page-padding{
+    padding: 0px 2.5rem;
+}
+
+.center-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    display: block;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-center{
+    align-items: center;
+}
+
+.flex-space-between{
+    justify-content: space-between;
+}
+
+.font-medium{
+    font-weight: 400;
+    letter-spacing: .80px;
+}
+
+.mb{
+    margin-bottom: 0.5rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+
+.blog-recent-container{
+    position: relative;
+}
+
+.blog-recent-image{ 
+    height: 25rem;
+    width: 100%;
+}
+
+.blog-recent-title {
+    position: absolute;
+    height: 100%;
+    width: 16rem;
+    top:10rem;
+    left:8rem;
+
+    .title{
+        font-weight: 400;
+        letter-spacing: .80px;
+        font-size: 18px;
+        color: white;
+    }
+
+    .description{
+        font-weight: 800;
+        letter-spacing: .80px;
+        font-size: 28px;
+        color: white;
+    }
+}
+
+
+.custom-box{
+    height: 10px;
+    width: 10px;
+    margin-right: 8px;
+    background-color: blueviolet;
+}
+
+
+.recent-blog-title{
+    font-weight: 400;
+    font-size: 1.8rem;
+    letter-spacing: .80px;
+}
+
+.recent-blog-description{
+    font-weight: 200;
+    font-size: 0.8rem;
+    letter-spacing: .80px;
+    color: black;
+    opacity: .4;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .grid-item {
+    padding: 20px;
+    text-align: start;
+     .title{
+        font-weight: 800;
+        letter-spacing: .56px;
+        font-size: medium;
+        width: 15rem;
+     }
+     .description {
+        font-weight: 200;
+    font-size: 0.8rem;
+    letter-spacing: .80px;
+    color: black;
+    opacity: .4;
+     }
+     .btn{
+        color: blue;
+        letter-spacing: .56px;
+        font-weight: 500;
+        font-size: medium;
+        cursor: pointer;
+     }
+  }
+
+  .card-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  footer{
+    bottom: 0;
+    padding: 4rem 5rem ;
+    background-color: #41526b;
+     .heading{
+        color:white;
+        letter-spacing: .56px;
+     }
+     .sub-heading {
+        color:white;
+        letter-spacing: .36px;
+        font-size: small;
+        opacity: .5;
+        
+     }
+
+  }
