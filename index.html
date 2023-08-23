@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./customStyle.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <title>Document</title>
   </head>
@@ -83,7 +84,7 @@
     <div class="homePage">
       <div class="home-heading">
         <span>Helping Others</span>
-        <span>LIVE & TRAVEL</span>
+        <h1>LIVE & TRAVEL</h1>
         <span>Special offers to suit your plan</span>
       </div>
     </div>
@@ -467,19 +468,48 @@
       <br />
       <br />
     </div>
-    <h1>Rooms & Suits</h1>
-    <div class="room-suits">
-      <div class="rooms-container">
+    <!-- ==================
+    rooms and suits=====
+    ================ -->
+    <h1 class="mb-2">Rooms & Suits</h1>
+    <div class="flex-rooms">
+      <div class="column">
+        <div class="r-s-img">
+          <img
+            src="./materials/Balcony Room.png"
+            alt="Image 1"
+            width="615px"
+            height="410px"
+          />
+        </div>
+        <img
+          src="./materials/Sea View Room.png"
+          alt="Image 2"
+          width="615px"
+          height="410px"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="./materials/Superior Room.png"
+          alt="Image 3"
+          width="615px"
+          height="840px"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="./materials/Deluxe Room.png"
+          alt="Image 4"
+          width="615px"
+          height="410px"
+        />
         <img
           src="./materials/Luxury Suite Rom.png"
-          alt="Snow"
-          style="width: 100%"
+          alt="Image 5"
+          width="615px"
+          height="410px"
         />
-        <div class="bottom-left">Bottom Left</div>
-        <div class="top-left">Top Left</div>
-        <div class="top-right">Top Right</div>
-        <div class="bottom-right">Bottom Right</div>
-        <div class="centered">Centered</div>
       </div>
     </div>
     <!-- ==================
@@ -573,8 +603,76 @@
         alt=""
         srcset=""
       />
-      <h2>See The Experience Before You Feel it.</h2>
-      <img src="./materials/Video.png" alt="" />
+      <div class="exp-text">
+        See The Experience Before<br />
+        You Feel it.
+      </div>
+      <div class="exp-image">
+        <img src="./materials/Video.png" height="60px" />
+      </div>
     </div>
+
+    <!-- ================
+    ==client-exp========
+    ================ -->
+
+    <div class="client-exp">
+      <h1>Client experience Testimonials</h1>
+      <div class="client-exp-main">
+        <img
+          src="./materials/International Package.png"
+          height="300rem"
+          width="300rem"
+          alt=""
+          srcset=""
+        />
+        <div class="client-exp-content">
+          <h1 class="font-m">Mr. J. K. Negi</h1>
+          <span>Businessman - Mumbai</sapn>
+          <span>Destination Visit - Manali, Himachal</span>
+          <p>
+            It was an excellent hotel having very calm & quiet location. The
+            appearance and ambiance of the hotel is outstanding. The staying
+            arrangement is beautiful. The staffs at the hotel are always eager
+            to serve you. The food is excellent. The swimming pool & hot water
+            Jacuzzi are the best one along with all other extracurricular
+            activities. Over all we enjoyed our stay like anything. And we had
+            sweet memories of our holidays and the will remain last long in our
+            mind. Thanks to ClubTraveler Holidays.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================
+    ==footer========
+    ================ -->
+    <footer>
+      <div class="flex flex-space-between">
+        <div></div>
+        <div>
+          <span class="heading block mb"> Company </span>
+
+          <span class="sub-heading block mb">About Us</span>
+          <span class="sub-heading block mb">Contact Us</span>
+          <span class="sub-heading block mb">Career Opportunity</span>
+          <span class="sub-heading block mb">Why Choose Us</span>
+          <span class="sub-heading block mb">Compliance</span>
+        </div>
+        <div>
+          <span class="heading block mb"> Policies </span>
+
+          <span class="sub-heading block mb">Cancellation/Refind Policy</span>
+          <span class="sub-heading block mb">Terms & Conditions</span>
+          <span class="sub-heading block mb">Privacy Policy</span>
+        </div>
+        <div>
+          <span class="heading block mb"> Subscribe Us </span>
+          <span class="sub-heading block mb"
+            >Eiusmod tempor incididunt ut labore et dolore magna aliqua.</span
+          >
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
