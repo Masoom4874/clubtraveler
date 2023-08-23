@@ -403,21 +403,6 @@ package-Page-----------------
   padding: 0;
   /* Adjust the width as needed */
 }
-/* .flex-list {
-  display: flex;
-  height: 10rem;
-  width: 10rem;
-  list-style: 1;
-}
-
-.flex-list li {
-  padding: 0rem;
-  white-space: 1rem;
-} */
-
-/* .flex-list ol {
-  list-style: 1;
-} */
 
 .highlighted-button {
   font-size: medium;
